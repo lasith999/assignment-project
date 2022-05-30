@@ -33,6 +33,9 @@ public class Loading_1 extends javax.swing.JFrame {
                     System.out.println("100 reach");
                     //stop timer
                     timer.stop();
+                    Loading_2 loading_2 = new Loading_2();
+                    dispose();
+                    loading_2.setVisible(true);
                 }
             }
         });
